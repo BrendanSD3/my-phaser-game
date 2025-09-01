@@ -34,7 +34,7 @@ This is a simple Phaser-powered coin clicker and tank shooter game. The goal is 
 ![Main Menu](screenshot.png)
 
 ### In Game
-![In Game](ingame.png)
+![In Game](ingame.PNG)
 
 ### Game Over
-![Game Over](gameover.png)
+![Game Over](gameover.PNG)
