@@ -35,6 +35,8 @@ export class Preloader extends Scene
         this.load.image('background', 'background.png');
         this.load.image('logo', 'cc-logo.png');
         this.load.atlas('coin', 'coin.png', 'coin.json');
+        this.load.image('tank', 'tankBody_huge.png');    
+        this.load.image('laser', 'laser.png');
     }
 
     create ()
@@ -42,7 +44,7 @@ export class Preloader extends Scene
         this.anims.create({
             key: 'rotate',
             frames: this.anims.generateFrameNames('coin', { prefix: 'coin_', start: 1, end: 7, zeroPad: 2 }),
-            frameRate: 20,
+            frameRate: 7,
             repeat: -1
         });
 

@@ -29,9 +29,9 @@ export class MainMenu extends Scene
 
         const instructions = [
             'How many coins can you',
-            'click in 10 seconds?',
+            'click in 20 seconds?',
             '',
-            'Click to Start!'
+            'Click space or mouse to Start!'
         ]
 
         this.add.text(512, 550, instructions, textStyle).setAlign('center').setOrigin(0.5);
@@ -41,5 +41,9 @@ export class MainMenu extends Scene
             this.scene.start('ClickerGame');
 
         });
+          // Start game on spacebar press
+        this.input.keyboard.once('keydown-SPACE', () => {
+            this.scene.start('ClickerGame');
+        }); 
     }
 }
