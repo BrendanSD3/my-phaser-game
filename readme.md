@@ -27,3 +27,14 @@ This is a simple Phaser-powered coin clicker and tank shooter game. The goal is 
 ## Assets
 
 - Tank and coin sprites from [Kenney.nl](https://kenney.nl/assets) and [OpenGameArt](https://opengameart.org/).
+
+## Screenshots
+
+### Main Menu
+![Main Menu](screenshot.png)
+
+### In Game
+![In Game](ingame.png)
+
+### Game Over
+![Game Over](gameover.png)
